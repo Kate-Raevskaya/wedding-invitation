@@ -1113,8 +1113,8 @@ button {
             position: absolute;
             top: 61px;
             left: 131px;
-            stroke-dasharray: 200;
-            stroke-dashoffset: -200;
+            stroke-dasharray: 200 200;
+            stroke-dashoffset: 200;
         }
     }
 
@@ -1132,7 +1132,7 @@ button {
 
 @keyframes heart-reveal {
     to {
-        stroke-dashoffset: 0;
+        stroke-dashoffset: 400;
     }
 }
 
